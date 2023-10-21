@@ -44,7 +44,7 @@ const Home = () => {
 
                         <div className="buttons">
 
-                            <button className='text-white text-start rounded-3 px-2 py-1 d-flex justify-content-between align-items-center my-2'>
+                            <button className='text-white text-start rounded-3 px-2 py-1 d-flex justify-content-between align-items-center my-2 pb-2'>
                              <span>Log in as a student</span> 
                              <div className="arrow" >
                              <img src={arrow} alt="arrow" />
@@ -53,7 +53,7 @@ const Home = () => {
                              </button>
 
                             <div className='mainbtn d-flex  justify-content-between'>
-                                <button className='border-0 text-start rounded-3 px-2 py-1 d-flex justify-content-between align-items-center my-2d-flex '> 
+                                <button className='border-0 text-start rounded-3 px-2 py-1 d-flex justify-content-between align-items-center my-2d-flex pb-2'> 
                                 <span>For Institute</span> 
                                     <div className="arrow" >
                                     <img src={doubleArrow} alt="arrow" />
@@ -61,7 +61,7 @@ const Home = () => {
                                 </div>
                                 </button>
 
-                                <button className='border-0 text-start rounded-3 px-2 py-1 d-flex justify-content-between align-items-center my-2d-flex '> 
+                                <button className='border-0 text-start rounded-3 px-2 py-1 d-flex justify-content-between align-items-center my-2d-flex pb-2'> 
                                 <span>For Teacher</span> 
                                     <div className="arrow" >
                                     <img src={doubleArrow} alt="arrow" />
