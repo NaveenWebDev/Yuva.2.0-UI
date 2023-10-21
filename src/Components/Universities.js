@@ -2,6 +2,12 @@ import React from 'react'
 import satyaIcon from "../assests/satmew-jayte-logo-FBBEBAEA31-seeklogo 2.svg";
 import "../Css/univercity.css"
 import arrow from "../assests/Vector.svg"
+import unione from "../assests/univercity/uniOne.svg"
+import uniTwo from "../assests/univercity/uniTwo.svg"
+import uniThree from "../assests/univercity/uniThree.svg"
+import uniFour from "../assests/univercity/uniFour.svg"
+import uniFive from "../assests/univercity/uniFive.svg"
+import uniSix from "../assests/univercity/uniSix.svg"
 
 const Universities = () => {
   return (
@@ -36,31 +42,31 @@ const Universities = () => {
                         <p>MINISTRY OF ENVIRONMENT, FORESTS & CLIMATE CHANGE</p>
                     </div>
                 </div>
-
+            {/* ================================================== */}
                 <div className="row text-center">
                     <div className="col-lg-2">
-                        <img src={satyaIcon} alt="satyaicon" />
-                        <p>MINISTRY OF EDUCATION</p>
+                        <img src={unione} alt="satyaicon" />
+                        <p>ARMY WELFARE EDUCATION SOCIETY</p>
                     </div>
                     <div className="col-lg-2">
-                        <img src={satyaIcon} alt="satyaicon" />
-                        <p>MINISTRY OF AYUSH</p>
+                        <img src={uniTwo} alt="satyaicon" />
+                        <p>UNIVERSITY GRANTS COMMISSION</p>
                     </div>
                     <div className="col-lg-2">
-                        <img src={satyaIcon} alt="satyaicon" />
-                        <p>MINISTRY OF CULTURE</p>
+                        <img src={uniThree} alt="satyaicon" />
+                        <p>UNIVERSITY OF DELHI</p>
                     </div>
                     <div className="col-lg-2">
-                        <img src={satyaIcon} alt="satyaicon" />
-                        <p>MINISTRY OF DEFENCE</p>
+                        <img src={uniFour} alt="satyaicon" />
+                        <p>UNIVERSITY OF DELHI</p>
                     </div>
                     <div className="col-lg-2">
-                        <img src={satyaIcon} alt="satyaicon" />
-                        <p>MINISTRY OF YOUTH AFFAIRS AND SPORTS</p>
+                        <img src={uniFive} alt="satyaicon" />
+                        <p>YOUTH20</p>
                     </div>
                     <div className="col-lg-2">
-                        <img src={satyaIcon} alt="satyaicon" />
-                        <p>MINISTRY OF ENVIRONMENT, FORESTS & CLIMATE CHANGE</p>
+                        <img src={uniSix} alt="satyaicon" />
+                        <p>UNDP</p>
                     </div>
                 </div>
             </div>
