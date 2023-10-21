@@ -1,0 +1,14 @@
+.leftexp{
+    width: 40%;
+}
+.rightexp{
+    font-family: 'Lexend', sans-serif;
+    width: 60%;
+}
+.rightexp h2{
+    font-size: 59px;
+}
+#learnMore{
+    background-color: #8000FF;
+    width: fit-content;
+}

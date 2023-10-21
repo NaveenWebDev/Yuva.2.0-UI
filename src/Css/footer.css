@@ -1,0 +1,21 @@
+.footer{
+    background-color: #7000FF;
+    color: white;
+    font-family: 'Lexend', sans-serif;
+}
+.boxOne{
+    width: 40%;
+}
+.box{
+    width: 20%;
+}
+.icons i{
+    font-size: 43px ;
+}
+.lowerFooter{
+    border-top: 1px solid silver;
+    font-size: 17px;
+}
+.lowerFooter P:first-child{
+    width: 40%;
+}
